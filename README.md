@@ -3,12 +3,25 @@
  ```javascript
 const aboutMe = {
    pronouns: "he" | "him",
+   location: ["Granada -Spain"],
    code: ["JavascriptES6", "HTML5", "CSS3"],
-   technologies: ["React", "NextJS", "Node.js", "ExpressJS", "Handlebars", "Bootstrap", "MUI"],
-   backEndTools: ["RESTful API", "Axios", "Postman"],
-   dataBase: ["MongoDB", "Mongoose", "noSQL"],
-   otherPackages: ["Stripe", "Nodemailer", "Cloudinary"],
-   versionControl: ["gitHub", "Netlify", "Heroku", "Cyclic],
-   currentOccupation: ["Teacher Assistant at IronHack, open for job opportunities"],
+   technologies: {
+      frontEnd: {
+         js: ["React"],
+         css: ["Bootstrap", "Material UI"]
+      },
+      backEnd: {
+         js: ["Node", "Express"],
+      },
+      databases: ["MongoDB", "Mongoose", "noSQL"],
+   },
+   currentOccupation: {
+      role: "Teacher Assistant",
+      teachInstitution: "IronHack",
+      course: "Full Stack Web Developer",
+      format: "Part Time",
+      location: "Remote"
+   }
+   
 };
 ```
