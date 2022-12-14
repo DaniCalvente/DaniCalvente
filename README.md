@@ -6,7 +6,7 @@
 const aboutMe = {
    pronouns: "he" | "him",
    location: "Granada - Spain",
-   title: "Full-Stack Web Developer"
+   title: "Full-Stack Web Developer",
    currentJob: {
       role: "Teacher Assistant",
       teachInstitution: "IronHack",
