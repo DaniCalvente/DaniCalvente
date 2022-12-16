@@ -10,7 +10,7 @@ const aboutMe = {
    currentJob: {
       role: "Teacher Assistant",
       teachInstitution: "IronHack",
-      course: "Full Stack Web Developer",
+      course: "Full Stack Web Development",
       format: "Part Time",
       location: "Remote"
    }
